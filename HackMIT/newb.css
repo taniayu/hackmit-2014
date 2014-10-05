@@ -1,0 +1,74 @@
+<style>
+
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}  
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:500px;
+    width:150px;
+    float:left;
+    padding:5px; 
+}
+#section {
+    width:1122px;
+    float:left;
+    padding:20px; 
+	background-color:#C2A9A9;
+	
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+#map_canvas {
+    width: 330px;
+    height: 240px;
+    background-color: #CCC;
+	float: right;
+  }
+  
+ #header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}  
+  
+ #info {
+    width: 330px;
+    height: 240px;
+    background-color: #CCC;
+	float: right;
+  } 
+  
+ #wrapper {
+	width: 1122px;
+	clear: both;
+	padding-top: 0px;
+}
+#first {
+  background-color:#C2A9A9;
+  width:360px;
+  float:left;
+}
+#second {
+  background-color:#C2A9A9;
+  width:360px;
+  float:left;
+  
+}
+#third {
+  background-color:#C2A9A9e;
+  width:360px;
+  float:left;
+}
+</style>

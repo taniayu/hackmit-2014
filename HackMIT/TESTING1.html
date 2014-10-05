@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Your Results</title>
+
+
+
+ <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map_canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+<link href="newb.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+<div id="header">
+<h1><IMG SRC="best-dish-015.jpg" height="50" width="100" style="PADDING-RIGHT: 70px">
+Your Results
+<IMG SRC="Yelp.jpg" height="50" width="100"; style="PADDING-LEFT: 70px"
+</h1>
+</div>
+
+<div id="nav">
+Home<br>
+Search<br>
+Contact<br>
+</div>
+
+<div id="section"">
+
+<h1>Restaurant Name</h1>
+
+<div id="wrapper">
+  <div id="first"><IMG SRC="restaurant.jpg" height="240" width="350"> </div>
+  <div id="second"><div id="map_canvas" ></div></div>
+  <div id="third"><div id="info">
+  <h2>INFORMATION</h2>
+  <h3>Hours</h3>
+  <h3>Phone</h3>
+  <h3>Website</h3>
+  </div></div>
+  </div>
+  
+  
+
+<h1>Top Dishes</h1>
+<p>
+London is the capital city of England. It is the most populous city in the United Kingdom,
+with a metropolitan area of over 13 million inhabitants.
+</p>
+<p>
+Standing on the River Thames, London has been a major settlement for two millennia,
+its history going back to its founding by the Romans, who named it Londinium.
+</p>
+</div>
+<
+
+
+<div id="footer">
+Copyright © W3Schools.com
+</div>
+</body>
+
+
+
+
+</html>
